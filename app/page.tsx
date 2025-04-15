@@ -36,7 +36,7 @@ export default function TemplatesPage() {
             <div className="h-8 w-8 rounded-full bg-primary flex items-center justify-center">
               <span className="text-primary-foreground font-bold">N</span>
             </div>
-            <span className="font-bold text-xl">Nextjs 模板库</span>
+            <span className="font-bold text-xl">Next模板库</span>
           </div>
           <div className="flex items-center gap-4">
             <Button
@@ -92,7 +92,7 @@ export default function TemplatesPage() {
       </section>
 
       {/* Main Content */}
-      <div className="container mx-auto max-w-7xl flex-1 flex gap-8 pb-16 px-4 sm:px-6 lg:px-8">
+      <div className="container mx-auto max-w-7xl flex-1 flex flex-col md:flex-row gap-8 pb-16 px-4 sm:px-6 lg:px-8">
         {/* Sidebar */}
         <Sidebar selectedCategories={selectedCategories} setSelectedCategories={setSelectedCategories} />
 
@@ -123,7 +123,7 @@ export default function TemplatesPage() {
       </div>
 
       {/* Footer */}
-      <footer className="border-t py-12 bg-muted/30 w-full">
+      <footer className="border-t py-10 bg-muted/30 w-full">
         <div className="container mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 grid gap-8 md:grid-cols-3">
           <div>
             <h3 className="text-xl font-bold">Next.js 模板库</h3>
