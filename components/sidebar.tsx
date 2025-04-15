@@ -35,7 +35,7 @@ export function Sidebar({ selectedCategories, setSelectedCategories }: SidebarPr
   const [mobileFiltersOpen, setMobileFiltersOpen] = useState(false)
   const [mobileCategoryOpen, setMobileCategoryOpen] = useState(true)
   const [mobileTechOpen, setMobileTechOpen] = useState(true)
-  const [mobilePriceOpen, setMobilePriceOpen] = useState(true)
+  // const [mobilePriceOpen, setMobilePriceOpen] = useState(true)
 
   const toggleCategory = (categoryId: string) => {
     setSelectedCategories(
